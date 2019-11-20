@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { Component } from 'react' //useState / Component interchange ?
+import Colors from './components/Colors'
 
-class App extends Component {
-  render() {
-    return <HelloWorld />
-  }
+const App = () => {
+  return (
+    <>
+      <Colors />
+    </>
+  )
 }
-
 export default App

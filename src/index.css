@@ -9,4 +9,25 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.863);
+}
+
+.container {
+  margin-top: 15rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-flow: column wrap; /*wrap vs non wrap*/
+  align-content: center;
+  align-items: center;
+  border: 2px rgb(255, 217, 0) solid;
+}
+
+.background {
+  height: 5rem;
+  width: 5rem;
+  border: green solid 3px;
+  box-shadow: inset 0 0 0 1000px transparent;
+  background-color: yellow;
 }
